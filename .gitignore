@@ -1,0 +1,34 @@
+# Node
+node_modules/
+dist/
+
+# Environment
+.env
+.env.*
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Java
+target/
+*.class
+
+# Maven Wrapper Logs
+.mvn/
+
+# IntelliJ
+*.iml
+
+# Build
+build/
+
+# Temporary
+*.tmp
