@@ -1,10 +1,11 @@
+import Layout from "./components/layout/Layout";
+import Home from "./pages/Home/Home";
+
 function App() {
   return (
-    <main className="min-h-screen bg-slate-950 flex items-center justify-center">
-      <h1 className="text-4xl font-bold text-white">
-        Bharati Portfolio
-      </h1>
-    </main>
+    <Layout>
+      <Home />
+    </Layout>
   );
 }
 
