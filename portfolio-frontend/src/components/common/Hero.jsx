@@ -35,7 +35,7 @@ function Hero() {
               continuously improving my technical skills.
             </p>
 
-            {/* Buttons */}
+            {/* Action Buttons */}
             <div className="mt-10 flex flex-wrap gap-4">
               <button
                 type="button"
@@ -45,19 +45,20 @@ function Hero() {
                 Download Resume
               </button>
 
-              <button
-                type="button"
+              <a
+                href="#contact"
                 className="flex items-center gap-2 rounded-lg border border-cyan-500 px-6 py-3 font-semibold text-white transition-all duration-300 hover:scale-105 hover:bg-cyan-500"
               >
                 <MdEmail />
                 Contact Me
-              </button>
+              </a>
             </div>
 
             {/* Social Icons */}
             <div className="mt-10 flex items-center gap-6">
               <a
                 href="#"
+                aria-label="GitHub profile"
                 className="text-3xl text-slate-400 transition-all duration-300 hover:scale-110 hover:text-cyan-400"
               >
                 <FaGithub />
@@ -65,13 +66,15 @@ function Hero() {
 
               <a
                 href="#"
+                aria-label="LinkedIn profile"
                 className="text-3xl text-slate-400 transition-all duration-300 hover:scale-110 hover:text-cyan-400"
               >
                 <FaLinkedin />
               </a>
 
               <a
-                href="#"
+                href="mailto:bharatigopireddi@gmail.com"
+                aria-label="Send email"
                 className="text-3xl text-slate-400 transition-all duration-300 hover:scale-110 hover:text-cyan-400"
               >
                 <MdEmail />
