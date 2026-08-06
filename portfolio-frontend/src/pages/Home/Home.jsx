@@ -5,6 +5,8 @@ import Projects from "../Projects/Projects";
 import Experience from "../../components/common/Experience";
 import Education from "../../components/common/Education";
 import Contact from "../../components/common/Contact";
+import ScrollToTop from "../../components/ui/ScrollToTop";
+import Footer from "../../components/layout/Footer";
 
 function Home() {
   return (
@@ -16,6 +18,9 @@ function Home() {
       <Experience />
       <Education />
       <Contact />
+      
+      <ScrollToTop />
+
     </>
   );
 }
